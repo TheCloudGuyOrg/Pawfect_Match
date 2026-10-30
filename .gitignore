@@ -1,0 +1,9 @@
+# Original camera photos can contain GPS location and device data.
+# Only publish cleaned web copies (for example mockup/grizzley.jpg, which has no metadata).
+*.heic
+*.HEIC
+*.heif
+*.HEIF
+
+# macOS
+.DS_Store

@@ -1,4 +1,4 @@
-# Pikes Pack (dog breeding-match app): Spec and Working Notes
+# Pawfect Match (dog breeding-match app): Spec and Working Notes
 
 Status: **scoping plus a clickable mockup. Nothing deployed.** Originally scoped on 2026-10-29 as a dog *playdate* matching app. **Changed on 2026-10-30 to a breeding-match app** (connecting dog parents who want to breed their dogs). The mockup in `mockup/` reflects the new direction.
 
@@ -11,7 +11,7 @@ Status: **scoping plus a clickable mockup. Nothing deployed.** Originally scoped
 | Launch area | **Colorado Springs, CO** |
 | Nature of project | **Hobby project** |
 | Revenue | None for now; just a concept |
-| Name / branding | Working name **Pikes Pack** (placeholder; likely to change). Availability not checked |
+| Name / branding | **Pawfect Match** (chosen 2026-10-30; the owner may change it later). Renamed from the earlier working name "Pikes Pack". A DNS check on 2026-10-30 suggested `pawfectmatch.com` is already registered and `pawfectmatch.app` looks free. This is a rough signal only. Trademark, app-store and web searches have not been done, and the name is a common pun |
 | Platform | Website first, phone app later |
 | Hosting | **AWS** |
 | What the app does NOT do | Arrange matings, sell or list dogs or puppies, or handle payments or contracts. Owners agree everything directly |
@@ -116,7 +116,7 @@ A small pilot is probably tens of dollars a month, mostly maps and email. Unveri
 
 ## 11. Suggested build order
 
-1. ~~Clickable mockup~~ **Built** in `mockup/` (open `mockup/index.html` in a browser). Updated 2026-10-30 for breeding. Uses sample dogs and places, keeps data in the browser only. Click-tested in a simulated browser; not yet reviewed in a real one by the owner.
+1. ~~Clickable mockup~~ **Built** in `mockup/` (open `mockup/index.html` in a browser). Updated 2026-10-30 for breeding. Uses sample dogs and places, keeps data in the browser only. The demo dog is a 3-year-old female Australian Shepherd, and the sample dogs are mostly male Australian Shepherds. Click-tested in a simulated browser; not yet reviewed in a real one by the owner.
 2. Sign-in and dog profiles with photos.
 3. Discover and swipe with the hard filters.
 4. Matching and chat.
@@ -127,7 +127,9 @@ A small pilot is probably tens of dollars a month, mostly maps and email. Unveri
 
 ## 12. Open questions
 
-- [ ] Name and branding. Working shortlist: Pikes Pack, Fetch Friends, Tail Mates. Availability (domain, app stores, trademark) is not checked.
+- [x] Name: Pawfect Match (chosen 2026-10-30).
+- [ ] Check the name: domain at a registrar, USPTO trademark search, Apple and Google app stores, and a web search for existing pet or breeding businesses with the same name. Other names considered: Sire & Dam, LitterMatch, Bloodline Match. Avoid "Pedigree Pairs" (Mars Petcare brand) and anything using AKC, UKC or "Kennel Club".
+- [ ] Rename the GitHub repo from `Pikes_Pack` to `Pawfect_Match` and update the local remote (GitHub redirects the old address).
 - [ ] Review the profile questions, hard filters, age limits and score weights with a veterinarian or an experienced breeder.
 - [ ] Colorado licensing rules (PACFA) and any other rules for breeders and for a service that connects them.
 - [ ] Which breeds to support first, or all breeds.
