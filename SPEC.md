@@ -129,7 +129,7 @@ A small pilot is probably tens of dollars a month, mostly maps and email. Unveri
 
 - [x] Name: Pawfect Match (chosen 2026-10-30).
 - [ ] Check the name: domain at a registrar, USPTO trademark search, Apple and Google app stores, and a web search for existing pet or breeding businesses with the same name. Other names considered: Sire & Dam, LitterMatch, Bloodline Match. Avoid "Pedigree Pairs" (Mars Petcare brand) and anything using AKC, UKC or "Kennel Club".
-- [ ] Rename the GitHub repo from `Pikes_Pack` to `Pawfect_Match` and update the local remote (GitHub redirects the old address).
+- [x] GitHub repo renamed from `Pikes_Pack` to `Pawfect_Match` (2026-10-30). Local remote is now `git@github.com:TheCloudGuyOrg/Pawfect_Match.git`.
 - [ ] Review the profile questions, hard filters, age limits and score weights with a veterinarian or an experienced breeder.
 - [ ] Colorado licensing rules (PACFA) and any other rules for breeders and for a service that connects them.
 - [ ] Which breeds to support first, or all breeds.
